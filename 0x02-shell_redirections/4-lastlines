@@ -1,2 +1,2 @@
-#!/ban/bash
-tail /etc/passwd
+#!/bin/bash
+tail /etc/passwd 
