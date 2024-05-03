@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Using task0 with adding -f added to force removing the file if it does exist
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+sudo service nginx restart
+rm /run/nginx.pid
